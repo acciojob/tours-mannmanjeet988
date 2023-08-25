@@ -10,3 +10,26 @@ button{
     justify-content: center;
     align-items: center;
 }
+
+#main{
+    color:brown
+}
+
+img{
+    height:250px;
+    width:400px;
+}
+
+.bottom-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    border:1px solid green;
+}
+
+h3{
+    color: green;
+    text-align: center;
+}
