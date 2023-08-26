@@ -11,10 +11,10 @@ const Tour = ({ tour, removeTour }) => {
         <h3>{tour.name}</h3>
         <p>${tour.price}</p>
         {/* { !showMore ?
-            <p>tour.info.substring(0,50) <button onClick={()=>setShowMore(true)}>Show Less</button> </p> : ""
+            <p>tour.info.substring(0,200) <button onClick={()=>setShowMore(true)}>Show More</button> </p> : ""
         } */}
         <p>{tour.info}</p>
-        <button className="delete-btn"  onClick={()=>removeTour(tour.id)}>Not interested</button>
+        <button className="delete-btn-{id}"  onClick={()=>removeTour(tour.id)}>Not interested</button>
    
     </div>
   );
